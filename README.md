@@ -1,13 +1,13 @@
 ## `vagrant-l1f7`
 
-A Vagrantfile setup that aims to be universal for the majority of [@l1f7](https://github.com/l1f7)'s projects.
+A Vagrantfile setup that aims to work with the majority of [@l1f7](https://github.com/l1f7)'s projects.
 
 **General setup:**
 
 * Python 2.7.6
 * pip 1.4.1
 * libjpeg, libpng, and other PIL dependencies (just in case)
-* ~~Postgres~~ (eventually)
+* ~~Postgres~~ (eventually), this'll require a bit of discussion
 
 **Get started:**
 

@@ -5,7 +5,7 @@
 export PROJECTNAME='project' # <= Django folder name
 
 
-
+# Django environment variables
 export DJANGO_SETTINGS_MODULE=$PROJECTNAME.settings.dev
 export OLD_PYTHONPATH="$PYTHONPATH"
 export PYTHONPATH=$PYTHONPATH:/home/vagrant/app/$PROJECTNAME/

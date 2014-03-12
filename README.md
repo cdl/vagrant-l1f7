@@ -10,6 +10,7 @@ A Vagrantfile setup that aims to work with the majority of [@l1f7](https://githu
 ### Get started
 
 * Clone this repo down, and then place the root of your project in `./app`. (In case you're confused, the `requirements/` folder should be inside of `./app`.)
+* :warning: **Head to `bootstrap.sh` and edit [the respective variables under "Project-specific Variables", starting at line 3](/cdl/vagrant-l1f7/blob/master/bootstrap.sh#L5).** :warning:
 * `cd` into the root of this repo
 * Run `vagrant up`.
   * *(If it asks you which network interface to connect to, it's usually the first one. Just choose the one that you use to connect to the internet yourself.)*

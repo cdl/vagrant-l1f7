@@ -5,11 +5,11 @@ A Vagrantfile setup that aims to work with the majority of [@l1f7](https://githu
 ### Don't have Vagrant installed?
 
 * Head to the [downloads page on the Vagrant site](http://www.vagrantup.com/downloads.html) and run the installer you need.
-* Make sure you have a version of [VirtualBox](https://www.virtualbox.org/wiki/Downloads) installed, too. Any version that's 4.3.0 or above should be fine.
+* Make sure you have a version of [VirtualBox](https://www.virtualbox.org/wiki/Downloads) installed, too. Any version that's **4.3.0 or above** should be fine.
 
 ### Get started
 
-* Clone this repo down, and then place the root of your project in `./app`.
+* Clone this repo down, and then place the root of your project in `./app`. (In case you're confused, the `requirements/` folder should be inside of `./app`.)
 * `cd` into the root of this repo
 * Run `vagrant up`.
   * *(If it asks you which network interface to connect to, it's usually the first one. Just choose the one that you use to connect to the internet yourself.)*
